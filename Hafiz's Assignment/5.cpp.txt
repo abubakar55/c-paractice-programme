@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int i=7,j=7,k=7;
+    int empl[7],hour[7],pay[7];
+    cout<<"enter employe ID:\n";
+    for (int i=0;i<7;i++)
+    {
+        cin>>empl[i];
+        }
+    cout<<"enter hours\n";
+    for (int j=0;j<7;j++)
+    {
+        cin>>hour[j];
+        }
+    cout<<"emloyee pay for the hour he worked\n";
+    pay[k]+=empl[i]*hour[j];
+    cout<<"your pay is =";
+    for (int k=0;k<7;k++)
+    {
+        cout<<pay[k];
+        }
+    return 0;    
+    
+}    
