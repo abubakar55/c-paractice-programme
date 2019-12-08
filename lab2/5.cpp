@@ -2,12 +2,18 @@
 using namespace std;
 int main ()
 {
-  int birthy,cury,age;
-  cout<<"your date of birth";
-  cin>>birthy;
-  cout<<"current year";
-  cin>>cury;
-  age=cury-birthy;
-  cout<<"your current age is ="<<age;
-  return 0;
+    // pass and fail project
+    int n;
+    cout<<"Enter your marks in any Subject\n";
+    cin>>n;
+    if (n>33)
+    {
+        cout<<"you are passed in the subject = "<<n<<" with these marks!\n";
+    } 
+    else
+    {
+        cout<<"AH! Sorry you are failed in the subjects\n";
+    }
+    return 0;
+    
 }
